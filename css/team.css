@@ -22,12 +22,13 @@
     gap: 24px;
     width: 1128px;
     
+    
 }
 
 .team-item {
     background: #fff;
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     justify-content: flex-start;
     flex-direction: column;
     gap: 0px;
@@ -36,7 +37,9 @@
     height: 380px;
 }
 
-.team-item-image {}
+.team-item-image {
+    margin-bottom: 32px;
+}
 
 .team-item-title {
     font-weight: 500;
@@ -44,6 +47,8 @@
     line-height: 1.2;
     text-align: center;
     color: #2e2f42;
+    
+
 }
 
 .team-item-position {
