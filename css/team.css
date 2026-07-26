@@ -20,7 +20,6 @@
     justify-content: flex-start;
     flex-direction: row;
     gap: 24px;
-    width: 1128px;
     
     
 }
@@ -34,11 +33,19 @@
     gap: 0px;
     border-radius: 0 0 4px 4px;
     width: 264px;
-    height: 380px;
 }
 
 .team-item-image {
+    display: block;
     margin-bottom: 32px;
+}
+
+.team-item-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    padding: 32px 16px;
 }
 
 .team-item-title {

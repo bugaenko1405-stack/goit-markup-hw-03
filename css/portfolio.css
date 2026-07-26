@@ -9,6 +9,7 @@
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
+    margin-bottom: 72px;
 }
 
 .portfolio-list {
@@ -22,7 +23,6 @@
 .portfolio-item {
     background: #fff;
     width: 360px;
-    height: 420px;
     min-width: 288px;
     max-width: 360px;
 
@@ -34,8 +34,6 @@
     align-items: flex-start;
     justify-content: center;
     gap: 8px;
-    width: 360px;
-    height: 120px;
     padding: 32px 16px;
     border-left: 1px solid #E7E9FC;
     border-right: 1px solid #E7E9FC;
@@ -44,7 +42,7 @@
 }
 
 .portfolio-item-image {
-    
+    display: block;
 }
 
 .portfolio-item-title {
@@ -52,11 +50,8 @@
     font-size: 20px;
     line-height: 1.2;
     color: #2e2f42;
-    margin-left: 16px;
-    margin-bottom: 8px;
 }
 
 .portfolio-item-position {
-    width: calc((100% - 24px*5)/6);
-    margin-left: 16px;
+
 }

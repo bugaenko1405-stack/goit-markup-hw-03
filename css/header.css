@@ -1,6 +1,6 @@
 .header {
     padding: 0px 15px;
-    
+    border-bottom: 1px solid #e7e9fc;
 }
 
 .header .container {
@@ -42,7 +42,7 @@
 
 .header-nav-link {
     display: block;
-    padding: 20px 0px;
+    padding: 24px 0px;
     font-weight: 500;
     color: #2e2f42;
 }
@@ -50,7 +50,6 @@
 .header-nav-link:hover, .header-nav-link:focus {color: #404BBF;}
 
 .header-address {
-    \
 }
 
 .header-address-list {
