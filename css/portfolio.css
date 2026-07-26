@@ -25,14 +25,26 @@
     height: 420px;
     min-width: 288px;
     max-width: 360px;
-    min-height: 360px;
-    max-height: 420px;
-    border: 1px solid #e7e9fc;
-    box-sizing: border-box;
+
+}
+
+.portfolio-item-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 8px;
+    width: 360px;
+    height: 120px;
+    padding: 32px 16px;
+    border-left: 1px solid #E7E9FC;
+    border-right: 1px solid #E7E9FC;
+    border-bottom: 1px solid #E7E9FC;
+    background: #fff;
 }
 
 .portfolio-item-image {
-    margin-bottom: 32px;
+    
 }
 
 .portfolio-item-title {
