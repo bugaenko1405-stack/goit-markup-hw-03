@@ -1,16 +1,28 @@
-.features {}
+.features {
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
 
-.features-title {}
+.features-title {
+    display: None;
+}
 
-.features-list {}
+.features-list {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
 
-.features-item {}
+.features-item {
+    width: 264px;
+}
 
 .features-item-title {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     color: #2e2f42;
+    margin-bottom: 8px;
 }
 
 .features-item-text {}

@@ -15,8 +15,15 @@ a {
     color: inherit;
 }
 
+h1,h2,h3,h4,h5,h6,p {
+    margin: 0;
+    font-weight: inherit;
+}
+
 ul,ol {
     list-style: none;
+    padding: 0;
+    margin: 0;
 }
 
 address {
@@ -27,4 +34,12 @@ address {
 button {
     font-family: inherit;
     cursor: pointer;
+}
+
+
+
+.features ,
+.team ,
+.portfolio {
+    padding: 120px 0px;
 }

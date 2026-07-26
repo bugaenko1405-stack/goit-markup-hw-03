@@ -1,6 +1,20 @@
-.header {}
+.header {
+    padding: 0px 15px;
+    
+}
+
+.header .container {
+    display: flex;
+    align-items: center;
+
+
+}
 
 .header-logo {
+    display: flex;
+    align-items: center;
+    gap: 0px;
+    
     font-weight: 700;
     font-size: 18px;
     line-height: 1.33333;
@@ -13,22 +27,36 @@
 
 .header-logo-text {color: #2e2f42;}
 
-.header-nav {}
+.header-nav {
+ margin-left: 76px; 
+ margin-right: auto;
+}
 
-.header-nav-list {}
+.header-nav-list {
+    display: flex;
+    align-items: flex-start;
+    gap: 40px;
+}
 
 .header-nav-item {}
 
 .header-nav-link {
+    display: block;
+    padding: 20px 0px;
     font-weight: 500;
     color: #2e2f42;
 }
 
 .header-nav-link:hover, .header-nav-link:focus {color: #404BBF;}
 
-.header-address {}
+.header-address {
+    \
+}
 
-.header-address-list {}
+.header-address-list {
+    display: flex;
+    gap: 40px;
+}
 
 .header-address-item {}
 

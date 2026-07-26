@@ -1,5 +1,8 @@
 .team {
     background: #f4f4fd;
+    padding: 120px 0px;
+
+
 }
 
 .team-title {
@@ -8,12 +11,29 @@
     line-height: 1.11111;
     text-align: center;
     color: #2e2f42;
+    margin-bottom: 72px;
 }
 
-.team-list {}
+.team-list {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 24px;
+    width: 1128px;
+    
+}
 
 .team-item {
     background: #fff;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 0px;
+    border-radius: 0 0 4px 4px;
+    width: 264px;
+    height: 380px;
 }
 
 .team-item-image {}
